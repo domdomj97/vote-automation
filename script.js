@@ -1,7 +1,29 @@
 // This will be populated with the actual data
 const candidateData = [
     // Example format:
-    { award: "18", member: "706", typeId: "1", name: "Candidate Name" }
+    { award: "18", member: "698", typeId: "1", name: "Muzik" },
+    { award: "18", member: "708", typeId: "1", name: "Dopamine" },
+    { award: "18", member: "696", typeId: "1", name: "Sundays" },
+    { award: "18", member: "697", typeId: "1", name: "Flash" },
+    { award: "18", member: "712", typeId: "1", name: "Cừu có cánh" },
+    { award: "18", member: "707", typeId: "1", name: "FC Hurrykng" },
+    { award: "18", member: "713", typeId: "1", name: "XA XA" },
+    { award: "18", member: "717", typeId: "1", name: "HIP" },
+    { award: "18", member: "715", typeId: "1", name: "Lion Kingdom" },
+    { award: "1", member: "678", typeId: "1", name: "Quang Hùng" },
+    { award: "1", member: "691", typeId: "1", name: "HIEUTHUHAI" },
+    { award: "1", member: "700", typeId: "1", name: "Rhyder" },
+    { award: "5", member: "486", typeId: "1", name: "ITAY" },
+    { award: "6", member: "512", typeId: "1", name: "Quang Hùng" },
+    { award: "6", member: "543", typeId: "1", name: "HTH" },
+    { award: "6", member: "512", typeId: "1", name: "Rhyder" },
+    { award: "7", member: "560", typeId: "1", name: "Atus" },
+    { award: "7", member: "480", typeId: "1", name: "Justatee" },
+    { award: "8", member: "524", typeId: "1", name: "ATSH" },
+    { award: "13", member: "580", typeId: "1", name: "Duong Domic" },
+    { award: "13", member: "582", typeId: "1", name: "HURRYKNG" },
+    { award: "13", member: "628", typeId: "1", name: "Wean Le" },
+    { award: "24", member: "747", typeId: "1", name: "Đã ai làm gì đâu, đã ai chạm vào đâu" },
 ];
 
 // Function to initialize the candidate list
