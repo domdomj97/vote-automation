@@ -3,7 +3,9 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Vote Automation</title>
+    <meta id="metaDescription" name="description" content="Giai đoạn Bình chọn chính thức diễn ra từ 25/12/2024 - 12:00 12/01/2025">
+    <meta id="metaNewKeywords" name="news_keywords" content="binh chon, binh chon 2024, vote, wechoice, tool, ATSH, anh trai say hi">
+    <title>ATSH Wechoice Vote Tool</title>
     <style>
         body {
             font-family: Arial, sans-serif;
@@ -68,12 +70,23 @@
 <body>
     <div class="description">
         <!-- Description placeholder -->
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+        <p>Các himom hidad ơi, bơn mình ko thể để thua bơn ba gai được</p>
+        <p>Cách lấy cookie: </p>
+        <p>Vào <a href="https://wechoice.vn/" target="_blank">https://wechoice.vn/</a></p>
+        <p>Đăng nhập tài khoản</p>
+        <p>Mở F12 lên để vào trang developer tool</p>
+        <p>Bấm vào mục bất kì trên trang web</p>
+        <p>Mở tab network</p>
+        <p>Tìm request đến file vote-token.htm</p>
+        <p>Bấm vào request đó, nhìn vào mục Cookie</p>
+        <p>Copy cookie đó và bỏ vào đây rồi bấm bắt đầu</p>
+        <p>Sau đó, hệ thống sẽ tự động vote giúp bạn, không cần phải bấm trên trang Wechoice nữa</p>
+        
     </div>
 
     <div class="form-group">
-        <textarea class="cookie-input" id="cookieInput" placeholder="Enter your cookie here..." rows="5"></textarea>
-        <button onclick="startVoting()">Start Voting</button>
+        <textarea class="cookie-input" id="cookieInput" placeholder="Nhập cookie..." rows="5"></textarea>
+        <button onclick="startVoting()">Bắt đầu</button>
     </div>
 
     <div class="candidate-list" id="candidateList">
